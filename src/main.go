@@ -47,6 +47,7 @@ func main() {
 	}
 }
 
-func someFunc(someVar string) {
+func someFunc(someVar string) string {
 	fmt.Printf("This function just did something! Here is the first var value: %v \n", someVar)
+	return someVar
 }
